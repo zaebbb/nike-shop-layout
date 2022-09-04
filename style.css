@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+}
+body{
+	background: #161821;
+}
+.navigation{
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+.logo img{
+	float: left;
+	height: 60px;
+	padding: 0px 20px;
+}
+.menu-left{
+	float: left;
+	margin: 10px 50px;
+}
+.menu-right{
+	float: right;
+}
+.menu ul{
+	display: flex;
+	margin: 0px 20px;
+}
+.menu ul li a{
+	color: #ffffff;
+	display: block;
+	margin: 10px 0px;
+	font-weight: 200;
+	font-size: 12px;
+	padding: 10px 25px;
+}
+.search-box{
+	height: 18px;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	margin: 10px 50px;
+	background: transparent;
+	padding-bottom: 30px;
+}
+input{
+	background: transparent;
+	width: 170px;
+	border: none;
+	text-align: center;
+	color: #ffffff;
+}
+.swiper-slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	padding-top: 7%;
+}
+.slide{
+	margin: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+.text{
+	flex-basis: 400px;
+	color: #ffffff;
+}
+.text p{
+	color: rgba(110, 105, 105, 1);
+	line-height: 20px;
+}
+h6{
+	font-size: 15px;
+	word-spacing: 5px;
+	line-height: 20px;
+	color: #FF4383;
+	flex-wrap: wrap;
+}
+h2{
+	font-size: 50px;
+	word-spacing: -2px;
+}
+.image{
+	height: 450px;
+}
+.image img{
+	height: 100%;
+	object-fit: cover;
+}
+.categories{
+	display: flex;
+	margin-top: 20px;
+}
+.categories select{
+	width: 90px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid #828282;
+	color: #ffffff;
+	margin-right: 20px;
+	margin-left: 0;
+}
+.categories option{
+	color: #000000;
+	text-align: center;
+}
+.categories a{
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 550;
+	border: 2px solid #FF4383;
+	color: #FF4383;
+	height: 40px;
+	width: 90px;
+}
+.cart{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 50px;
+	background: rgba(54, 53, 53, 1);
+	border: 2px solid rgba(54, 53, 53, 1);
+	transition: 0.5s;
+}
+.cart a{
+	color: #FF4383;
+	transition: 0.5s;
+}
+.brand img{
+	position: absolute;
+	left: 70px;
+	bottom: 5px;
+	height: 35px;
+}
+.cart:hover{
+	background: #FF4383;
+}
+.cart:hover a{
+	color: #ffffff;
+}
